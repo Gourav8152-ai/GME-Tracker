@@ -25,7 +25,7 @@ fetch("https://www.alphavantage.co/query?function=TIME_SERIES_DAILY_ADJUSTED&sym
   let open = []
   let date = []
   for(var item in data['Time Series (Daily)']){
-    date.push(data[item])
+    date.push(item)
     open.push(data['Time Series (Daily)'][item]["1. open"])
     close.push(data['Time Series (Daily)'][item]["4. close"])
   }
