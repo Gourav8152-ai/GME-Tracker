@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Ribeye+Marrow&display=swap');
+.top-bar{
+  background-color: #192a56;
+  padding:0.5em;
+  color:white;
+  text-align:center;
+  font-weight: bold;
+  font-size:3em;
+  font-family: 'Ribeye Marrow', cursive;
+}
+.main-content{
+  background-color: #f5f6fa;
+    padding:2em;
+}
+.my-footer{
+  background-color: #DCDDE1;
+  padding:1em;
+  font-size: 0.7em;
+  color:#434448;
+}
+#stock-tracker{
+  height: 16em;
+}
+#company-description{
+  font-size:0.8em;
+  background:#dcdde1;
+  border:1px solid #576574;
+  padding:1.em;
+}
+.namo-card{
+  padding:1em;
+  border: 1px solid white;
+  color: white;
+  background:#008A8B;
+  text-align:center;
+}
