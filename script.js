@@ -10,7 +10,7 @@ fetch("https://www.alphavantage.co/query?function=OVERVIEW&symbol=GME&apikey=2FB
     document.getElementById("Revenue-per-share").innerHTML = data.RevenuePerShareTTM;
   }else {
     document.getElementById("company-description").innerHTML = "API IS GOING ROUND N ROUND HAHA 😂!!"
-    document.getElementById("Employees-count").innerHTML = "RUKO ZARA SABAR KARO"
+    document.getElementById("Employees-count").innerHTML = "Loading"
   }
 })
 
